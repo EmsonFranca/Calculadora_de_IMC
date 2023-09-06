@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+:root{
+    --cor-do-container: #1d1e33a4;
+    --cor-branca: #FFFFFF;
+    --cor-do-botao: #F44236;
+    --cor-cinza: #444;
+    --cor-cinza-claro: #CCC;
+    --cor-verde: #12DB34;
+    --cor-amarelo: #BDC212;
+    --cor-laranja: #BD6212;
+    --cor-vermelha: #DB1912;
+}
+
+body{
+    background-image: url("../img/tela-de-fundo.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--cor-branca);
+}
+
+.hide{
+    display: none !important;
+}
+
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: var(--cor-do-container);
+    opacity: 1;
+    backdrop-filter: blur(15px);
+    padding: 32px;
+    border-radius: 10px;
+}

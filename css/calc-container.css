@@ -1,0 +1,28 @@
+/* IMC form */
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 9.6px;
+    color: var(--cor-branca);
+}
+.form-control input{
+    padding: 16px 8px;
+    border-radius: 5px;
+}
