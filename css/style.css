@@ -7,6 +7,7 @@
 :root{
     --cor-do-container: #e6000000;
     --cor-branca: #FFFFFF;
+    --cor-preta: #000000;
     --cor-do-botao: #F44236;
     --cor-cinza: #444;
     --cor-cinza-claro: #CCC;
@@ -24,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: var(--cor-branca);
+    color: var(--cor-preta);
 }
 
 .hide{
