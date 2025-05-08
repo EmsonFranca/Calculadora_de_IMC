@@ -5,7 +5,7 @@
     font-family: 'Lato', sans-serif;
 }
 :root{
-    --cor-do-container: #1d1e33a4;
+    --cor-do-container: #e6000000;
     --cor-branca: #FFFFFF;
     --cor-do-botao: #F44236;
     --cor-cinza: #444;
@@ -14,10 +14,11 @@
     --cor-amarelo: #BDC212;
     --cor-laranja: #BD6212;
     --cor-vermelha: #DB1912;
+    --cor-fundo: url(../img/tela-de-fundo.webp) no-repeat center center fixed;
 }
 
 body{
-    background-image: url("../img/tela-de-fundo.webp");
+    background: var(--cor-fundo);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

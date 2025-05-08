@@ -1,0 +1,12 @@
+{
+  "name": "Calculadora",
+  "theme_color": "#CCC",
+  "background_color": "#000000",
+  "short_name": "IMC",
+  "id": "rb.ved.asrefu.ved",
+  "categories": [
+    "fitness",
+    "medical",
+    "utilities"
+  ]
+}
